@@ -1,0 +1,173 @@
+/*-------GLOBAL IS START--------*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding-top: 70px;
+}
+
+
+
+
+
+
+
+/*------ HEADER IS START----- */
+header {
+  background-color: antiquewhite;
+  display: flex;
+  height: 75px;
+  padding: 0px 10px;
+  align-items: center;
+  border: none;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+header .header-edit img {
+  width: 50px;
+}
+
+.header-edit {
+  display: flex;
+  align-items: center;
+}
+
+.header-edit p {
+  color: rgb(237, 205, 182);
+}
+
+.header-edit a {
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 25px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+header nav {
+  width: 500px;
+  margin: 0px auto;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(237, 205, 182);
+  border: none;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+/*-----------MAIN IS START--------------*/
+
+/*-------SECTION 1 & 4 CSS---------*/
+
+.template {
+  width: 400px;
+  margin: 0px auto;
+}
+.template img {
+  width: 100%;
+}
+.description {
+  width: 700px;
+  margin: 0px auto;
+}
+/*----------SECTION 1----------*/
+.section-1-layout {
+  display:flex;
+  width: 1160px;
+  margin: 0px auto;
+}
+/*---------SECTION 2----------*/
+.section-2-layout {
+  display: flex;
+  width: 1160px;
+  margin: 0px auto;
+}
+.aside-container {
+  background-color: gray;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+  padding: 10px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------FOOTER IS START---------*/
+footer {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.container-footer {
+  padding: 30px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.container-footer li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.social-medai-link {
+  width: 100%;
+  height: 60px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.social-medai-link li {
+  list-style: none;
+}
+
+.fa-brands {
+  font-size: 35px;
+  color: black;
+  transition: 0.5s;
+}
+
+.fa-brands:hover {
+  color: lightcoral;
+}
+
+.footer-flex-container {
+  display: flex;
+}
