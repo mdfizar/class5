@@ -129,6 +129,7 @@ header nav ul li a:hover {
 
 /*-------FOOTER IS START---------*/
 footer {
+  margin-top: 300px;
   width: 100%;
   background-color: antiquewhite;
 }
